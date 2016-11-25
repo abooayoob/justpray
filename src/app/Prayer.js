@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  // StyleSheet,
   Text,
   View
 } from 'react-native'
@@ -26,7 +25,7 @@ Prayer.propTypes = {
 const styles = {
   container (options) {
     return ({
-      flex: 1,
+      flex: 2,
       margin: 5,
       width: 500,
       justifyContent: 'center',

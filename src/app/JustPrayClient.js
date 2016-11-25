@@ -4,6 +4,7 @@ import {
   View
 } from 'react-native'
 import { Prayer } from './Prayer'
+import { Clock } from './Clock'
 import { COLORS } from '../../assets/colors'
 
 export default class JustPrayClient extends Component {
@@ -27,6 +28,7 @@ export default class JustPrayClient extends Component {
   render () {
     return (
       <View style={styles.container}>
+        <Clock />
         <Prayer prayerName='FAJR' />
         <Prayer prayerName='DHUHR' />
         <Prayer prayerName='ASR' />
