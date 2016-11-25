@@ -1,22 +1,34 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {
   AppRegistry,
   StyleSheet,
   Text,
   View
-} from 'react-native';
+} from 'react-native'
+import { adhaan } from './assets/audio.js'
 
 export default class JustPrayClient extends Component {
-  render() {
+  constructor (props) {
+    super(props)
+    this.props = props
+
+    this.playAdhaan = this.playAdhaan.bind(this)
+  }
+
+  playAdhaan () {
+    this.props.callToPrayer.play(success => {
+      if (success) {
+        console.log('successfully finished playing')
+      } else {
+        console.log('playback failed due to audio decoding errors')
+      }
+    })
+  }
+
+  render () {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
+        <Text onPress={this.playAdhaan} style={styles.welcome}>
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
@@ -27,8 +39,15 @@ export default class JustPrayClient extends Component {
           Shake or press menu button for dev menu
         </Text>
       </View>
-    );
+    )
   }
+}
+
+const { object, string } = React.PropTypes
+
+JustPrayClient.propTypes = {
+  callToPrayer: object.isRequired,
+  test: string
 }
 
 const styles = StyleSheet.create({
@@ -36,18 +55,20 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#F5FCFF'
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
-    margin: 10,
+    margin: 10
   },
   instructions: {
     textAlign: 'center',
     color: '#333333',
-    marginBottom: 5,
-  },
-});
+    marginBottom: 5
+  }
+})
 
-AppRegistry.registerComponent('JustPrayClient', () => JustPrayClient);
+const Main = () => <JustPrayClient callToPrayer={adhaan} />
+
+AppRegistry.registerComponent('JustPrayClient', () => Main)
