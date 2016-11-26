@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import {
   StyleSheet,
-  View
+  View,
+  TouchableWithoutFeedback
 } from 'react-native'
 import { Prayer } from './Prayer'
 import { Clock } from './Clock'
@@ -27,14 +28,16 @@ export default class JustPrayClient extends Component {
 
   render () {
     return (
-      <View style={styles.container}>
-        <Clock />
-        <Prayer prayerName='FAJR' />
-        <Prayer prayerName='DHUHR' />
-        <Prayer prayerName='ASR' />
-        <Prayer prayerName='MAGHRIB' />
-        <Prayer prayerName='ISHA' />
-      </View>
+      <TouchableWithoutFeedback onPress={this.playAdhaan}>
+        <View style={styles.container}>
+          <Clock />
+          <Prayer prayerName='FAJR' />
+          <Prayer prayerName='DHUHR' />
+          <Prayer prayerName='ASR' />
+          <Prayer prayerName='MAGHRIB' />
+          <Prayer prayerName='ISHA' />
+        </View>
+      </TouchableWithoutFeedback>
     )
   }
 }
