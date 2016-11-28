@@ -22,18 +22,19 @@ Prayer.propTypes = {
   prayerName: string.isRequired
 }
 
+// Need to use Dimensions here, to get a responsive layout
 const styles = {
   container (options) {
     return ({
-      flex: 2,
+      flex: 1,
       margin: 5,
-      width: 500,
+      width: 350,
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: options.backgroundColor
     })
   },
   text: {
-    fontSize: 60
+    fontSize: 45
   }
 }

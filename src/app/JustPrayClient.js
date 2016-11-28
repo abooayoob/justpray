@@ -7,11 +7,17 @@ import {
 import { Prayer } from './Prayer'
 import { Clock } from './Clock'
 import { COLORS } from '../../assets/colors'
+import { default as moment } from 'moment/min/moment-with-locales'
+moment.locale('nb')
 
 export default class JustPrayClient extends Component {
   constructor (props) {
     super(props)
     this.props = props
+
+    this.state = {
+      currentTime: moment()
+    }
 
     this.playAdhaan = this.playAdhaan.bind(this)
   }
@@ -30,7 +36,7 @@ export default class JustPrayClient extends Component {
     return (
       <TouchableWithoutFeedback onPress={this.playAdhaan}>
         <View style={styles.container}>
-          <Clock />
+          <Clock time={this.state.currentTime} />
           <Prayer prayerName='FAJR' />
           <Prayer prayerName='DHUHR' />
           <Prayer prayerName='ASR' />
