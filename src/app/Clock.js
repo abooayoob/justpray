@@ -5,15 +5,19 @@ import {
   View
 } from 'react-native'
 import { COLORS } from '../../assets/colors'
+import { default as moment } from 'moment/min/moment-with-locales'
 
 export const Clock = (props) => {
+  moment.locale('nb')
+  // console.log(moment.locales)
+  const now = moment()
   return (
     <View style={styles.container}>
       <Text style={styles.timeText}>
-        13:25
+        {now.format('HH:mm')}
       </Text>
       <Text>
-        23/11-16
+        {now.format('dddd, Do, MMMM')}
       </Text>
     </View>
   )
