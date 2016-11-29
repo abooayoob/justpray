@@ -20,6 +20,18 @@ export default class JustPrayClient extends Component {
     }
 
     this.playAdhaan = this.playAdhaan.bind(this)
+    this.tick = this.tick.bind(this)
+  }
+
+  componentDidMount () {
+    setInterval(this.tick, 1000)
+  }
+
+  tick () {
+    const now = moment()
+    this.setState({
+      currentTime: now
+    })
   }
 
   playAdhaan () {
@@ -38,7 +50,7 @@ export default class JustPrayClient extends Component {
         <View style={styles.container}>
           <Clock time={this.state.currentTime} />
           <Prayer prayerName='FAJR' />
-          <Prayer prayerName='DHUHR' />
+          <Prayer prayerName='DHUHR' currentPrayer />
           <Prayer prayerName='ASR' />
           <Prayer prayerName='MAGHRIB' />
           <Prayer prayerName='ISHA' />

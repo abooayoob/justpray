@@ -6,9 +6,19 @@ import {
 import { COLORS } from '../../assets/colors'
 
 export const Prayer = (props) => {
+  const borderColor = COLORS[props.prayerName.toLowerCase()]
+  let backgroundColor = COLORS['board']
+
+  if (props.currentPrayer) {
+    backgroundColor = COLORS[props.prayerName.toLowerCase()]
+  }
   return (
-    <View style={styles.container({
-      backgroundColor: COLORS[props.prayerName.toLowerCase()]})}>
+    <View style={
+      styles.container({
+        borderColor,
+        backgroundColor
+      })
+    }>
       <Text style={styles.text}>
         {props.prayerName}
       </Text>
@@ -16,10 +26,11 @@ export const Prayer = (props) => {
   )
 }
 
-const { string } = React.PropTypes
+const { string, bool } = React.PropTypes
 
 Prayer.propTypes = {
-  prayerName: string.isRequired
+  prayerName: string.isRequired,
+  currentPrayer: bool
 }
 
 // Need to use Dimensions here, to get a responsive layout
@@ -27,11 +38,13 @@ const styles = {
   container (options) {
     return ({
       flex: 1,
-      margin: 5,
-      width: 350,
+      margin: 10,
+      width: 500,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: options.backgroundColor
+      backgroundColor: options.backgroundColor,
+      borderWidth: 5,
+      borderColor: options.borderColor
     })
   },
   text: {
