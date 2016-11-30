@@ -5,15 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Just Pray</title>
+  <link rel="stylesheet" href="./css/normalize.css" media="screen" title="no title">
+  <link rel="stylesheet" href="./css/styles.css" media="screen" title="no title">
 </head>
 <body>
   <div class="container">
     <header class="header">
-      <h1>Just Pray</h1>
-      <h2> - Assistive technology</h2>
+      <h1 class="header__main-heading">Just Pray</h1>
+      <h2 class="header__tagline"> - Assistive technology</h2>
     </header>
+
+    <nav class="menu-container">
+      <ul class="menu">
+        <li class="menu__item">
+          <a href="#purpose" class="menu__link">What is it for?</a>
+        </li>
+        <li class="menu__item">
+          <a href="#idea" class="menu__link">The idea</a>
+        </li>
+        <li class="menu__item">
+          <a href="#technology" class="menu__link">The technology</a>
+        </li>
+      </ul>
+    </nav>
+
     <div class="description">
-       <h2>What is it for?</h2>
+       <h2 id="purpose">What is it for?</h2>
+
        <p>
          A friend of mine approached me and told me about his mother-in-law.
          She does not know how to read or write, and now that she lives on her own  she is frustrated that she cannot
@@ -23,9 +41,52 @@
          In case you don't know, muslims pray 5 times a day. And the prayer times vary according to the position of the sun on the sky,
          which in turn varies according to the position of the earth in relation to the sun.
          That's why most people use timetables which look something like this:
-         <img src="images/timetable.png" alt="Example of how a timetable would look.">
        </p>
+
+       <div class="image-container" >
+         <img class="image-container__responsive-image" src="./images/timetable.png" alt="Example of how a timetable would look.">
+       </div>
+
+       <p>
+         Suffice to say, she needs something different.
+       </p>
+
+       <h2 id="idea">The idea</h2>
+       <p>
+         We know that she knows the order of the different prayers: Fajr, Dhuhr, Asr, Maghrib, Isha.
+         And we came up with this sketch:
+       </p>
+       <div class="image-container" >
+         <img class="image-container__responsive-image" src="./images/sketchJustPray.jpg" alt="Our initial sketch of the app.">
+       </div>
+       <p>
+         A wall mounted tablet in kiosk mode, so that it only runs the Just Pray app, and nothing else.
+         We thought that it might be easy for her to recognize which prayer it is if they are lined up like this,
+         and the current prayer is highlighted. Also each prayer will be color coded, so they are easier to commit to memory.
+         Also on transition from one prayer time to another, the adhaan (call to prayer) will be played.
+         She also will have the oppertunity to touch anywhere on the screen of the tablet, and the prayer time will be spoken to her.
+       </p>
+
+       <p>
+         This is how it looks so far:
+       </p>
+
+       <div class="image-container" >
+         <img class="image-container__responsive-image" src="./images/screenshot.png" alt="Our initial sketch of the app.">
+       </div>
+
+
+       <h2 id="technology">The technology</h2>
+       <h3>React Native</h3>
+       <p>
+          As I have never written a native app before, React Native was chosen because it leverages web technologies,
+          and I had just finished a workshop where I learned React for the web.
+          I really like React as a view library, and it has made it very easy and quick for me with knowledge of web development to
+          develop a native application.
+       </p>
+
     </div>
+
   </div>
 </body>
 </html>
