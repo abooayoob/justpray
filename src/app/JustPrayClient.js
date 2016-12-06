@@ -25,6 +25,7 @@ export default class JustPrayClient extends Component {
     this.tick = this.tick.bind(this)
     this.getNewPrayers = this.getNewPrayers.bind(this)
     this.determinePrayer = this.determinePrayer.bind(this)
+    this.queryPrayerTime = this.queryPrayerTime.bind(this)
   }
 
   componentDidMount () {
@@ -109,9 +110,32 @@ export default class JustPrayClient extends Component {
     }
   }
 
+  queryPrayerTime () {
+    const { none, fajr, dhuhr, asr, maghrib, isha } = this.props.sounds
+    switch (this.state.currentPrayer) {
+      case 'fajr':
+        fajr.play()
+        break
+      case 'dhuhr':
+        dhuhr.play()
+        break
+      case 'asr':
+        asr.play()
+        break
+      case 'maghrib':
+        maghrib.play()
+        break
+      case 'isha':
+        isha.play()
+        break
+      default:
+        none.play()
+    }
+  }
+
   render () {
     return (
-      <TouchableWithoutFeedback>
+      <TouchableWithoutFeedback onPress={this.queryPrayerTime}>
         <View style={styles.container}>
           <Clock time={this.state.currentTime} />
           <Prayer prayerName='FAJR' currentPrayer={this.state.currentPrayer} />
