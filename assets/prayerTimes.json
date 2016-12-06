@@ -1,681 +1,281 @@
 {
-  "years": {
-    "2016": {
-      "november": [
-        {
-          "Dato": "01.11.2016",
-          "Ukedag": "Tir",
-          "Fajr": "05:18",
-          "Sunrise": "07:38",
-          "Dhuhr": "12:11",
-          "Maghrib": "16:22",
-          "Isha": "18:42",
-          "Asr_1x_Shafi": "13:50",
-          "Asr_2x_Hanafi": "14:22"
-        },
-        {
-          "Dato": "02.11.2016",
-          "Ukedag": "Ons",
-          "Fajr": "05:20",
-          "Sunrise": "07:41",
-          "Dhuhr": "12:11",
-          "Maghrib": "16:19",
-          "Isha": "18:40",
-          "Asr_1x_Shafi": "13:48",
-          "Asr_2x_Hanafi": "14:20"
-        },
-        {
-          "Dato": "03.11.2016",
-          "Ukedag": "Tor",
-          "Fajr": "05:22",
-          "Sunrise": "07:43",
-          "Dhuhr": "12:11",
-          "Maghrib": "16:17",
-          "Isha": "18:38",
-          "Asr_1x_Shafi": "13:46",
-          "Asr_2x_Hanafi": "14:18"
-        },
-        {
-          "Dato": "04.11.2016",
-          "Ukedag": "Fre",
-          "Fajr": "05:24",
-          "Sunrise": "07:46",
-          "Dhuhr": "12:11",
-          "Maghrib": "16:14",
-          "Isha": "18:36",
-          "Asr_1x_Shafi": "13:44",
-          "Asr_2x_Hanafi": "14:15"
-        },
-        {
-          "Dato": "05.11.2016",
-          "Ukedag": "Lør",
-          "Fajr": "05:26",
-          "Sunrise": "07:48",
-          "Dhuhr": "12:11",
-          "Maghrib": "16:12",
-          "Isha": "18:34",
-          "Asr_1x_Shafi": "13:42",
-          "Asr_2x_Hanafi": "14:13"
-        },
-        {
-          "Dato": "06.11.2016",
-          "Ukedag": "Søn",
-          "Fajr": "05:28",
-          "Sunrise": "07:51",
-          "Dhuhr": "12:11",
-          "Maghrib": "16:09",
-          "Isha": "18:32",
-          "Asr_1x_Shafi": "13:40",
-          "Asr_2x_Hanafi": "14:11"
-        },
-        {
-          "Dato": "07.11.2016",
-          "Ukedag": "Man",
-          "Fajr": "05:30",
-          "Sunrise": "07:54",
-          "Dhuhr": "12:11",
-          "Maghrib": "16:07",
-          "Isha": "18:30",
-          "Asr_1x_Shafi": "13:39",
-          "Asr_2x_Hanafi": "14:09"
-        },
-        {
-          "Dato": "08.11.2016",
-          "Ukedag": "Tir",
-          "Fajr": "05:32",
-          "Sunrise": "07:56",
-          "Dhuhr": "12:11",
-          "Maghrib": "16:04",
-          "Isha": "18:28",
-          "Asr_1x_Shafi": "13:37",
-          "Asr_2x_Hanafi": "14:07"
-        },
-        {
-          "Dato": "09.11.2016",
-          "Ukedag": "Ons",
-          "Fajr": "05:34",
-          "Sunrise": "07:59",
-          "Dhuhr": "12:11",
-          "Maghrib": "16:02",
-          "Isha": "18:27",
-          "Asr_1x_Shafi": "13:35",
-          "Asr_2x_Hanafi": "14:05"
-        },
-        {
-          "Dato": "10.11.2016",
-          "Ukedag": "Tor",
-          "Fajr": "05:36",
-          "Sunrise": "08:01",
-          "Dhuhr": "12:11",
-          "Maghrib": "16:00",
-          "Isha": "18:25",
-          "Asr_1x_Shafi": "13:34",
-          "Asr_2x_Hanafi": "14:03"
-        },
-        {
-          "Dato": "11.11.2016",
-          "Ukedag": "Fre",
-          "Fajr": "05:38",
-          "Sunrise": "08:04",
-          "Dhuhr": "12:11",
-          "Maghrib": "15:57",
-          "Isha": "18:23",
-          "Asr_1x_Shafi": "13:32",
-          "Asr_2x_Hanafi": "14:01"
-        },
-        {
-          "Dato": "12.11.2016",
-          "Ukedag": "Lør",
-          "Fajr": "05:40",
-          "Sunrise": "08:06",
-          "Dhuhr": "12:11",
-          "Maghrib": "15:55",
-          "Isha": "18:21",
-          "Asr_1x_Shafi": "13:30",
-          "Asr_2x_Hanafi": "13:59"
-        },
-        {
-          "Dato": "13.11.2016",
-          "Ukedag": "Søn",
-          "Fajr": "05:42",
-          "Sunrise": "08:09",
-          "Dhuhr": "12:11",
-          "Maghrib": "15:53",
-          "Isha": "18:20",
-          "Asr_1x_Shafi": "13:29",
-          "Asr_2x_Hanafi": "13:57"
-        },
-        {
-          "Dato": "14.11.2016",
-          "Ukedag": "Man",
-          "Fajr": "05:44",
-          "Sunrise": "08:11",
-          "Dhuhr": "12:12",
-          "Maghrib": "15:51",
-          "Isha": "18:18",
-          "Asr_1x_Shafi": "13:27",
-          "Asr_2x_Hanafi": "13:55"
-        },
-        {
-          "Dato": "15.11.2016",
-          "Ukedag": "Tir",
-          "Fajr": "05:46",
-          "Sunrise": "08:14",
-          "Dhuhr": "12:12",
-          "Maghrib": "15:49",
-          "Isha": "18:17",
-          "Asr_1x_Shafi": "13:26",
-          "Asr_2x_Hanafi": "13:53"
-        },
-        {
-          "Dato": "16.11.2016",
-          "Ukedag": "Ons",
-          "Fajr": "05:48",
-          "Sunrise": "08:16",
-          "Dhuhr": "12:12",
-          "Maghrib": "15:47",
-          "Isha": "18:15",
-          "Asr_1x_Shafi": "13:25",
-          "Asr_2x_Hanafi": "13:51"
-        },
-        {
-          "Dato": "17.11.2016",
-          "Ukedag": "Tor",
-          "Fajr": "05:50",
-          "Sunrise": "08:19",
-          "Dhuhr": "12:12",
-          "Maghrib": "15:45",
-          "Isha": "18:14",
-          "Asr_1x_Shafi": "13:23",
-          "Asr_2x_Hanafi": "13:49"
-        },
-        {
-          "Dato": "18.11.2016",
-          "Ukedag": "Fre",
-          "Fajr": "05:52",
-          "Sunrise": "08:21",
-          "Dhuhr": "12:12",
-          "Maghrib": "15:43",
-          "Isha": "18:12",
-          "Asr_1x_Shafi": "13:22",
-          "Asr_2x_Hanafi": "13:48"
-        },
-        {
-          "Dato": "19.11.2016",
-          "Ukedag": "Lør",
-          "Fajr": "05:54",
-          "Sunrise": "08:24",
-          "Dhuhr": "12:13",
-          "Maghrib": "15:41",
-          "Isha": "18:11",
-          "Asr_1x_Shafi": "13:21",
-          "Asr_2x_Hanafi": "13:46"
-        },
-        {
-          "Dato": "20.11.2016",
-          "Ukedag": "Søn",
-          "Fajr": "05:55",
-          "Sunrise": "08:26",
-          "Dhuhr": "12:13",
-          "Maghrib": "15:39",
-          "Isha": "18:10",
-          "Asr_1x_Shafi": "13:19",
-          "Asr_2x_Hanafi": "13:44"
-        },
-        {
-          "Dato": "21.11.2016",
-          "Ukedag": "Man",
-          "Fajr": "05:57",
-          "Sunrise": "08:28",
-          "Dhuhr": "12:13",
-          "Maghrib": "15:37",
-          "Isha": "18:08",
-          "Asr_1x_Shafi": "13:18",
-          "Asr_2x_Hanafi": "13:43"
-        },
-        {
-          "Dato": "22.11.2016",
-          "Ukedag": "Tir",
-          "Fajr": "05:59",
-          "Sunrise": "08:31",
-          "Dhuhr": "12:13",
-          "Maghrib": "15:35",
-          "Isha": "18:07",
-          "Asr_1x_Shafi": "13:17",
-          "Asr_2x_Hanafi": "13:41"
-        },
-        {
-          "Dato": "23.11.2016",
-          "Ukedag": "Ons",
-          "Fajr": "06:01",
-          "Sunrise": "08:33",
-          "Dhuhr": "12:14",
-          "Maghrib": "15:33",
-          "Isha": "18:06",
-          "Asr_1x_Shafi": "13:16",
-          "Asr_2x_Hanafi": "13:40"
-        },
-        {
-          "Dato": "24.11.2016",
-          "Ukedag": "Tor",
-          "Fajr": "06:02",
-          "Sunrise": "08:35",
-          "Dhuhr": "12:14",
-          "Maghrib": "15:32",
-          "Isha": "18:05",
-          "Asr_1x_Shafi": "13:15",
-          "Asr_2x_Hanafi": "13:38"
-        },
-        {
-          "Dato": "25.11.2016",
-          "Ukedag": "Fre",
-          "Fajr": "06:04",
-          "Sunrise": "08:38",
-          "Dhuhr": "12:14",
-          "Maghrib": "15:30",
-          "Isha": "18:04",
-          "Asr_1x_Shafi": "13:14",
-          "Asr_2x_Hanafi": "13:37"
-        },
-        {
-          "Dato": "26.11.2016",
-          "Ukedag": "Lør",
-          "Fajr": "06:06",
-          "Sunrise": "08:40",
-          "Dhuhr": "12:15",
-          "Maghrib": "15:28",
-          "Isha": "18:03",
-          "Asr_1x_Shafi": "13:13",
-          "Asr_2x_Hanafi": "13:36"
-        },
-        {
-          "Dato": "27.11.2016",
-          "Ukedag": "Søn",
-          "Fajr": "06:07",
-          "Sunrise": "08:42",
-          "Dhuhr": "12:15",
-          "Maghrib": "15:27",
-          "Isha": "18:02",
-          "Asr_1x_Shafi": "13:12",
-          "Asr_2x_Hanafi": "13:34"
-        },
-        {
-          "Dato": "28.11.2016",
-          "Ukedag": "Man",
-          "Fajr": "06:09",
-          "Sunrise": "08:44",
-          "Dhuhr": "12:15",
-          "Maghrib": "15:26",
-          "Isha": "18:01",
-          "Asr_1x_Shafi": "13:11",
-          "Asr_2x_Hanafi": "13:33"
-        },
-        {
-          "Dato": "29.11.2016",
-          "Ukedag": "Tir",
-          "Fajr": "06:10",
-          "Sunrise": "08:46",
-          "Dhuhr": "12:16",
-          "Maghrib": "15:24",
-          "Isha": "18:01",
-          "Asr_1x_Shafi": "13:10",
-          "Asr_2x_Hanafi": "13:32"
-        },
-        {
-          "Dato": "30.11.2016",
-          "Ukedag": "Ons",
-          "Fajr": "06:12",
-          "Sunrise": "08:48",
-          "Dhuhr": "12:16",
-          "Maghrib": "15:23",
-          "Isha": "18:00",
-          "Asr_1x_Shafi": "13:10",
-          "Asr_2x_Hanafi": "13:31"
-        }
-      ],
-      "desember": [
-        {
-          "Dato": "01.12.2016",
-          "Ukedag": "Tor",
-          "Fajr": "06:13",
-          "Sunrise": "08:50",
-          "Dhuhr": "12:16",
-          "Maghrib": "15:22",
-          "Isha": "17:59",
-          "Asr_1x_Shafi": "13:09",
-          "Asr_2x_Hanafi": "13:30"
-        },
-        {
-          "Dato": "02.12.2016",
-          "Ukedag": "Fre",
-          "Fajr": "06:15",
-          "Sunrise": "08:52",
-          "Dhuhr": "12:17",
-          "Maghrib": "15:20",
-          "Isha": "17:59",
-          "Asr_1x_Shafi": "13:08",
-          "Asr_2x_Hanafi": "13:29"
-        },
-        {
-          "Dato": "03.12.2016",
-          "Ukedag": "Lør",
-          "Fajr": "06:16",
-          "Sunrise": "08:54",
-          "Dhuhr": "12:17",
-          "Maghrib": "15:19",
-          "Isha": "17:58",
-          "Asr_1x_Shafi": "13:08",
-          "Asr_2x_Hanafi": "13:28"
-        },
-        {
-          "Dato": "04.12.2016",
-          "Ukedag": "Søn",
-          "Fajr": "06:17",
-          "Sunrise": "08:56",
-          "Dhuhr": "12:17",
-          "Maghrib": "15:18",
-          "Isha": "17:57",
-          "Asr_1x_Shafi": "13:07",
-          "Asr_2x_Hanafi": "13:28"
-        },
-        {
-          "Dato": "05.12.2016",
-          "Ukedag": "Man",
-          "Fajr": "06:19",
-          "Sunrise": "08:58",
-          "Dhuhr": "12:18",
-          "Maghrib": "15:17",
-          "Isha": "17:57",
-          "Asr_1x_Shafi": "13:07",
-          "Asr_2x_Hanafi": "13:27"
-        },
-        {
-          "Dato": "06.12.2016",
-          "Ukedag": "Tir",
-          "Fajr": "06:20",
-          "Sunrise": "09:00",
-          "Dhuhr": "12:18",
-          "Maghrib": "15:17",
-          "Isha": "17:57",
-          "Asr_1x_Shafi": "13:06",
-          "Asr_2x_Hanafi": "13:26"
-        },
-        {
-          "Dato": "07.12.2016",
-          "Ukedag": "Ons",
-          "Fajr": "06:21",
-          "Sunrise": "09:01",
-          "Dhuhr": "12:19",
-          "Maghrib": "15:16",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:06",
-          "Asr_2x_Hanafi": "13:26"
-        },
-        {
-          "Dato": "08.12.2016",
-          "Ukedag": "Tor",
-          "Fajr": "06:22",
-          "Sunrise": "09:03",
-          "Dhuhr": "12:19",
-          "Maghrib": "15:15",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:06",
-          "Asr_2x_Hanafi": "13:25"
-        },
-        {
-          "Dato": "09.12.2016",
-          "Ukedag": "Fre",
-          "Fajr": "06:23",
-          "Sunrise": "09:04",
-          "Dhuhr": "12:20",
-          "Maghrib": "15:15",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:06",
-          "Asr_2x_Hanafi": "13:25"
-        },
-        {
-          "Dato": "10.12.2016",
-          "Ukedag": "Lør",
-          "Fajr": "06:24",
-          "Sunrise": "09:06",
-          "Dhuhr": "12:20",
-          "Maghrib": "15:14",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:05",
-          "Asr_2x_Hanafi": "13:25"
-        },
-        {
-          "Dato": "11.12.2016",
-          "Ukedag": "Søn",
-          "Fajr": "06:25",
-          "Sunrise": "09:07",
-          "Dhuhr": "12:21",
-          "Maghrib": "15:14",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:05",
-          "Asr_2x_Hanafi": "13:24"
-        },
-        {
-          "Dato": "12.12.2016",
-          "Ukedag": "Man",
-          "Fajr": "06:26",
-          "Sunrise": "09:09",
-          "Dhuhr": "12:21",
-          "Maghrib": "15:13",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:05",
-          "Asr_2x_Hanafi": "13:24"
-        },
-        {
-          "Dato": "13.12.2016",
-          "Ukedag": "Tir",
-          "Fajr": "06:27",
-          "Sunrise": "09:10",
-          "Dhuhr": "12:21",
-          "Maghrib": "15:13",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:05",
-          "Asr_2x_Hanafi": "13:24"
-        },
-        {
-          "Dato": "14.12.2016",
-          "Ukedag": "Ons",
-          "Fajr": "06:28",
-          "Sunrise": "09:11",
-          "Dhuhr": "12:22",
-          "Maghrib": "15:13",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:05",
-          "Asr_2x_Hanafi": "13:24"
-        },
-        {
-          "Dato": "15.12.2016",
-          "Ukedag": "Tor",
-          "Fajr": "06:29",
-          "Sunrise": "09:12",
-          "Dhuhr": "12:22",
-          "Maghrib": "15:13",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:06",
-          "Asr_2x_Hanafi": "13:24"
-        },
-        {
-          "Dato": "16.12.2016",
-          "Ukedag": "Fre",
-          "Fajr": "06:30",
-          "Sunrise": "09:13",
-          "Dhuhr": "12:23",
-          "Maghrib": "15:13",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:06",
-          "Asr_2x_Hanafi": "13:24"
-        },
-        {
-          "Dato": "17.12.2016",
-          "Ukedag": "Lør",
-          "Fajr": "06:31",
-          "Sunrise": "09:14",
-          "Dhuhr": "12:23",
-          "Maghrib": "15:13",
-          "Isha": "17:56",
-          "Asr_1x_Shafi": "13:06",
-          "Asr_2x_Hanafi": "13:24"
-        },
-        {
-          "Dato": "18.12.2016",
-          "Ukedag": "Søn",
-          "Fajr": "06:31",
-          "Sunrise": "09:15",
-          "Dhuhr": "12:24",
-          "Maghrib": "15:13",
-          "Isha": "17:57",
-          "Asr_1x_Shafi": "13:06",
-          "Asr_2x_Hanafi": "13:25"
-        },
-        {
-          "Dato": "19.12.2016",
-          "Ukedag": "Man",
-          "Fajr": "06:32",
-          "Sunrise": "09:15",
-          "Dhuhr": "12:24",
-          "Maghrib": "15:14",
-          "Isha": "17:57",
-          "Asr_1x_Shafi": "13:07",
-          "Asr_2x_Hanafi": "13:25"
-        },
-        {
-          "Dato": "20.12.2016",
-          "Ukedag": "Tir",
-          "Fajr": "06:32",
-          "Sunrise": "09:16",
-          "Dhuhr": "12:25",
-          "Maghrib": "15:14",
-          "Isha": "17:58",
-          "Asr_1x_Shafi": "13:07",
-          "Asr_2x_Hanafi": "13:25"
-        },
-        {
-          "Dato": "21.12.2016",
-          "Ukedag": "Ons",
-          "Fajr": "06:33",
-          "Sunrise": "09:17",
-          "Dhuhr": "12:25",
-          "Maghrib": "15:14",
-          "Isha": "17:58",
-          "Asr_1x_Shafi": "13:08",
-          "Asr_2x_Hanafi": "13:26"
-        },
-        {
-          "Dato": "22.12.2016",
-          "Ukedag": "Tor",
-          "Fajr": "06:33",
-          "Sunrise": "09:17",
-          "Dhuhr": "12:26",
-          "Maghrib": "15:15",
-          "Isha": "17:59",
-          "Asr_1x_Shafi": "13:08",
-          "Asr_2x_Hanafi": "13:27"
-        },
-        {
-          "Dato": "23.12.2016",
-          "Ukedag": "Fre",
-          "Fajr": "06:34",
-          "Sunrise": "09:17",
-          "Dhuhr": "12:26",
-          "Maghrib": "15:16",
-          "Isha": "17:59",
-          "Asr_1x_Shafi": "13:09",
-          "Asr_2x_Hanafi": "13:27"
-        },
-        {
-          "Dato": "24.12.2016",
-          "Ukedag": "Lør",
-          "Fajr": "06:34",
-          "Sunrise": "09:18",
-          "Dhuhr": "12:27",
-          "Maghrib": "15:17",
-          "Isha": "18:00",
-          "Asr_1x_Shafi": "13:10",
-          "Asr_2x_Hanafi": "13:28"
-        },
-        {
-          "Dato": "25.12.2016",
-          "Ukedag": "Søn",
-          "Fajr": "06:34",
-          "Sunrise": "09:18",
-          "Dhuhr": "12:27",
-          "Maghrib": "15:17",
-          "Isha": "18:01",
-          "Asr_1x_Shafi": "13:10",
-          "Asr_2x_Hanafi": "13:29"
-        },
-        {
-          "Dato": "26.12.2016",
-          "Ukedag": "Man",
-          "Fajr": "06:35",
-          "Sunrise": "09:18",
-          "Dhuhr": "12:28",
-          "Maghrib": "15:18",
-          "Isha": "18:01",
-          "Asr_1x_Shafi": "13:11",
-          "Asr_2x_Hanafi": "13:30"
-        },
-        {
-          "Dato": "27.12.2016",
-          "Ukedag": "Tir",
-          "Fajr": "06:35",
-          "Sunrise": "09:18",
-          "Dhuhr": "12:28",
-          "Maghrib": "15:19",
-          "Isha": "18:02",
-          "Asr_1x_Shafi": "13:12",
-          "Asr_2x_Hanafi": "13:31"
-        },
-        {
-          "Dato": "28.12.2016",
-          "Ukedag": "Ons",
-          "Fajr": "06:35",
-          "Sunrise": "09:18",
-          "Dhuhr": "12:29",
-          "Maghrib": "15:21",
-          "Isha": "18:03",
-          "Asr_1x_Shafi": "13:13",
-          "Asr_2x_Hanafi": "13:32"
-        },
-        {
-          "Dato": "29.12.2016",
-          "Ukedag": "Tor",
-          "Fajr": "06:35",
-          "Sunrise": "09:18",
-          "Dhuhr": "12:29",
-          "Maghrib": "15:22",
-          "Isha": "18:04",
-          "Asr_1x_Shafi": "13:14",
-          "Asr_2x_Hanafi": "13:33"
-        },
-        {
-          "Dato": "30.12.2016",
-          "Ukedag": "Fre",
-          "Fajr": "06:35",
-          "Sunrise": "09:17",
-          "Dhuhr": "12:30",
-          "Maghrib": "15:23",
-          "Isha": "18:05",
-          "Asr_1x_Shafi": "13:15",
-          "Asr_2x_Hanafi": "13:34"
-        },
-        {
-          "Dato": "31.12.2016",
-          "Ukedag": "Tor",
-          "Fajr": "06:35",
-          "Sunrise": "09:17",
-          "Dhuhr": "12:30",
-          "Maghrib": "15:24",
-          "Isha": "18:06",
-          "Asr_1x_Shafi": "13:16",
-          "Asr_2x_Hanafi": "13:35"
-        }
-      ]
-    }
+  "01.12.2016": {
+    "fajr": "06:13",
+    "sunrise": "08:50",
+    "dhuhr": "12:16",
+    "asr_shafi": "13:09",
+    "asr_hanafi": "13:30",
+    "maghrib": "15:22",
+    "isha": "17:59"
+  },
+  "02.12.2016": {
+    "fajr": "06:15",
+    "sunrise": "08:52",
+    "dhuhr": "12:17",
+    "asr_shafi": "13:08",
+    "asr_hanafi": "13:29",
+    "maghrib": "15:20",
+    "isha": "17:59"
+  },
+  "03.12.2016": {
+    "fajr": "06:16",
+    "sunrise": "08:54",
+    "dhuhr": "12:17",
+    "asr_shafi": "13:08",
+    "asr_hanafi": "13:28",
+    "maghrib": "15:19",
+    "isha": "17:58"
+  },
+  "04.12.2016": {
+    "fajr": "06:17",
+    "sunrise": "08:56",
+    "dhuhr": "12:17",
+    "asr_shafi": "13:07",
+    "asr_hanafi": "13:28",
+    "maghrib": "15:18",
+    "isha": "17:57"
+  },
+  "05.12.2016": {
+    "fajr": "06:19",
+    "sunrise": "08:58",
+    "dhuhr": "12:18",
+    "asr_shafi": "13:07",
+    "asr_hanafi": "13:27",
+    "maghrib": "15:17",
+    "isha": "17:57"
+  },
+  "06.12.2016": {
+    "fajr": "06:20",
+    "sunrise": "09:00",
+    "dhuhr": "12:18",
+    "asr_shafi": "13:06",
+    "asr_hanafi": "13:26",
+    "maghrib": "15:17",
+    "isha": "17:57"
+  },
+  "07.12.2016": {
+    "fajr": "06:21",
+    "sunrise": "09:01",
+    "dhuhr": "12:19",
+    "asr_shafi": "13:06",
+    "asr_hanafi": "13:26",
+    "maghrib": "15:16",
+    "isha": "17:56"
+  },
+  "08.12.2016": {
+    "fajr": "06:22",
+    "sunrise": "09:03",
+    "dhuhr": "12:19",
+    "asr_shafi": "13:06",
+    "asr_hanafi": "13:25",
+    "maghrib": "15:15",
+    "isha": "17:56"
+  },
+  "09.12.2016": {
+    "fajr": "06:23",
+    "sunrise": "09:04",
+    "dhuhr": "12:20",
+    "asr_shafi": "13:06",
+    "asr_hanafi": "13:25",
+    "maghrib": "15:15",
+    "isha": "17:56"
+  },
+  "10.12.2016": {
+    "fajr": "06:24",
+    "sunrise": "09:06",
+    "dhuhr": "12:20",
+    "asr_shafi": "13:05",
+    "asr_hanafi": "13:25",
+    "maghrib": "15:14",
+    "isha": "17:56"
+  },
+  "11.12.2016": {
+    "fajr": "06:25",
+    "sunrise": "09:07",
+    "dhuhr": "12:21",
+    "asr_shafi": "13:05",
+    "asr_hanafi": "13:24",
+    "maghrib": "15:14",
+    "isha": "17:56"
+  },
+  "12.12.2016": {
+    "fajr": "06:26",
+    "sunrise": "09:09",
+    "dhuhr": "12:21",
+    "asr_shafi": "13:05",
+    "asr_hanafi": "13:24",
+    "maghrib": "15:13",
+    "isha": "17:56"
+  },
+  "13.12.2016": {
+    "fajr": "06:27",
+    "sunrise": "09:10",
+    "dhuhr": "12:21",
+    "asr_shafi": "13:05",
+    "asr_hanafi": "13:24",
+    "maghrib": "15:13",
+    "isha": "17:56"
+  },
+  "14.12.2016": {
+    "fajr": "06:28",
+    "sunrise": "09:11",
+    "dhuhr": "12:22",
+    "asr_shafi": "13:05",
+    "asr_hanafi": "13:24",
+    "maghrib": "15:13",
+    "isha": "17:56"
+  },
+  "15.12.2016": {
+    "fajr": "06:29",
+    "sunrise": "09:12",
+    "dhuhr": "12:22",
+    "asr_shafi": "13:06",
+    "asr_hanafi": "13:24",
+    "maghrib": "15:13",
+    "isha": "17:56"
+  },
+  "16.12.2016": {
+    "fajr": "06:30",
+    "sunrise": "09:13",
+    "dhuhr": "12:23",
+    "asr_shafi": "13:06",
+    "asr_hanafi": "13:24",
+    "maghrib": "15:13",
+    "isha": "17:56"
+  },
+  "17.12.2016": {
+    "fajr": "06:31",
+    "sunrise": "09:14",
+    "dhuhr": "12:23",
+    "asr_shafi": "13:06",
+    "asr_hanafi": "13:24",
+    "maghrib": "15:13",
+    "isha": "17:56"
+  },
+  "18.12.2016": {
+    "fajr": "06:31",
+    "sunrise": "09:15",
+    "dhuhr": "12:24",
+    "asr_shafi": "13:06",
+    "asr_hanafi": "13:25",
+    "maghrib": "15:13",
+    "isha": "17:57"
+  },
+  "19.12.2016": {
+    "fajr": "06:32",
+    "sunrise": "09:15",
+    "dhuhr": "12:24",
+    "asr_shafi": "13:07",
+    "asr_hanafi": "13:25",
+    "maghrib": "15:14",
+    "isha": "17:57"
+  },
+  "20.12.2016": {
+    "fajr": "06:32",
+    "sunrise": "09:16",
+    "dhuhr": "12:25",
+    "asr_shafi": "13:07",
+    "asr_hanafi": "13:25",
+    "maghrib": "15:14",
+    "isha": "17:58"
+  },
+  "21.12.2016": {
+    "fajr": "06:33",
+    "sunrise": "09:17",
+    "dhuhr": "12:25",
+    "asr_shafi": "13:08",
+    "asr_hanafi": "13:26",
+    "maghrib": "15:14",
+    "isha": "17:58"
+  },
+  "22.12.2016": {
+    "fajr": "06:33",
+    "sunrise": "09:17",
+    "dhuhr": "12:26",
+    "asr_shafi": "13:08",
+    "asr_hanafi": "13:27",
+    "maghrib": "15:15",
+    "isha": "17:59"
+  },
+  "23.12.2016": {
+    "fajr": "06:34",
+    "sunrise": "09:17",
+    "dhuhr": "12:26",
+    "asr_shafi": "13:09",
+    "asr_hanafi": "13:27",
+    "maghrib": "15:16",
+    "isha": "17:59"
+  },
+  "24.12.2016": {
+    "fajr": "06:34",
+    "sunrise": "09:18",
+    "dhuhr": "12:27",
+    "asr_shafi": "13:10",
+    "asr_hanafi": "13:28",
+    "maghrib": "15:17",
+    "isha": "18:00"
+  },
+  "25.12.2016": {
+    "fajr": "06:34",
+    "sunrise": "09:18",
+    "dhuhr": "12:27",
+    "asr_shafi": "13:10",
+    "asr_hanafi": "13:29",
+    "maghrib": "15:17",
+    "isha": "18:01"
+  },
+  "26.12.2016": {
+    "fajr": "06:35",
+    "sunrise": "09:18",
+    "dhuhr": "12:28",
+    "asr_shafi": "13:11",
+    "asr_hanafi": "13:30",
+    "maghrib": "15:18",
+    "isha": "18:01"
+  },
+  "27.12.2016": {
+    "fajr": "06:35",
+    "sunrise": "09:18",
+    "dhuhr": "12:28",
+    "asr_shafi": "13:12",
+    "asr_hanafi": "13:31",
+    "maghrib": "15:19",
+    "isha": "18:02"
+  },
+  "28.12.2016": {
+    "fajr": "06:35",
+    "sunrise": "09:18",
+    "dhuhr": "12:29",
+    "asr_shafi": "13:13",
+    "asr_hanafi": "13:32",
+    "maghrib": "15:21",
+    "isha": "18:03"
+  },
+  "29.12.2016": {
+    "fajr": "06:35",
+    "sunrise": "09:18",
+    "dhuhr": "12:29",
+    "asr_shafi": "13:14",
+    "asr_hanafi": "13:33",
+    "maghrib": "15:22",
+    "isha": "18:04"
+  },
+  "30.12.2016": {
+    "fajr": "06:35",
+    "sunrise": "09:17",
+    "dhuhr": "12:30",
+    "asr_shafi": "13:15",
+    "asr_hanafi": "13:34",
+    "maghrib": "15:23",
+    "isha": "18:05"
+  },
+  "31.12.2016": {
+    "fajr": "06:35",
+    "sunrise": "09:17",
+    "dhuhr": "12:30",
+    "asr_shafi": "13:16",
+    "asr_hanafi": "13:35",
+    "maghrib": "15:24",
+    "isha": "18:06"
   }
 }
