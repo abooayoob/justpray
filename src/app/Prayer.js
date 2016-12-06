@@ -1,7 +1,8 @@
 import React from 'react'
 import {
   Text,
-  View
+  View,
+  Dimensions
 } from 'react-native'
 import { COLORS } from '../../assets/colors'
 
@@ -34,12 +35,13 @@ Prayer.propTypes = {
 }
 
 // Need to use Dimensions here, to get a responsive layout
+const { width } = Dimensions.get('window')
 const styles = {
   container (options) {
     return ({
       flex: 1,
-      margin: 10,
-      width: 500,
+      marginBottom: width / 40,
+      width: width / 1.1,
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: options.backgroundColor,
