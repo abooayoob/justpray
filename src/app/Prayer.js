@@ -9,7 +9,7 @@ export const Prayer = (props) => {
   const borderColor = COLORS[props.prayerName.toLowerCase()]
   let backgroundColor = COLORS['board']
 
-  if (props.currentPrayer === props.prayerName) {
+  if (props.currentPrayer === props.prayerName.toLowerCase()) {
     backgroundColor = COLORS[props.prayerName.toLowerCase()]
   }
   return (

@@ -104,11 +104,11 @@ export default class JustPrayClient extends Component {
       <TouchableWithoutFeedback>
         <View style={styles.container}>
           <Clock time={this.state.currentTime} />
-          <Prayer prayerName='fajr' currentPrayer={this.state.currentPrayer} />
-          <Prayer prayerName='dhuhr' currentPrayer={this.state.currentPrayer} />
-          <Prayer prayerName='asr' currentPrayer={this.state.currentPrayer} />
-          <Prayer prayerName='maghrib' currentPrayer={this.state.currentPrayer} />
-          <Prayer prayerName='isha' currentPrayer={this.state.currentPrayer} />
+          <Prayer prayerName='FAJR' currentPrayer={this.state.currentPrayer} />
+          <Prayer prayerName='DHUHR' currentPrayer={this.state.currentPrayer} />
+          <Prayer prayerName='ASR' currentPrayer={this.state.currentPrayer} />
+          <Prayer prayerName='MAGHRIB' currentPrayer={this.state.currentPrayer} />
+          <Prayer prayerName='ISHA' currentPrayer={this.state.currentPrayer} />
         </View>
       </TouchableWithoutFeedback>
     )
