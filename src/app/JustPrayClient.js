@@ -90,13 +90,23 @@ export default class JustPrayClient extends Component {
   }
 
   playAdhaan () {
-    this.props.callToPrayer.play(success => {
-      if (success) {
-        console.log('successfully finished playing')
-      } else {
-        console.log('playback failed due to audio decoding errors')
-      }
-    })
+    if (this.state.currentPrayer === 'fajr') {
+      this.props.sounds.adhaanFajr.play(success => {
+        if (success) {
+          console.log('successfully finished playing')
+        } else {
+          console.log('playback failed due to audio decoding errors')
+        }
+      })
+    } else {
+      this.props.sounds.adhaan.play(success => {
+        if (success) {
+          console.log('successfully finished playing')
+        } else {
+          console.log('playback failed due to audio decoding errors')
+        }
+      })
+    }
   }
 
   render () {
@@ -118,7 +128,7 @@ export default class JustPrayClient extends Component {
 const { object } = React.PropTypes
 
 JustPrayClient.propTypes = {
-  callToPrayer: object.isRequired
+  sounds: object.isRequired
 }
 
 const styles = StyleSheet.create({
