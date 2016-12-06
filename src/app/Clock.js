@@ -10,7 +10,7 @@ export const Clock = (props) => {
   return (
     <View style={styles.container}>
       <Text style={styles.timeText}>
-        {props.time.format('HH:mm')}
+        {props.time.format('HH:mm:ss')}
       </Text>
       <Text style={styles.dateText}>
         {props.time.format('dddd, Do, MMMM')}

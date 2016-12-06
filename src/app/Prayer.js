@@ -9,7 +9,7 @@ export const Prayer = (props) => {
   const borderColor = COLORS[props.prayerName.toLowerCase()]
   let backgroundColor = COLORS['board']
 
-  if (props.currentPrayer) {
+  if (props.currentPrayer === props.prayerName) {
     backgroundColor = COLORS[props.prayerName.toLowerCase()]
   }
   return (
@@ -26,11 +26,11 @@ export const Prayer = (props) => {
   )
 }
 
-const { string, bool } = React.PropTypes
+const { string } = React.PropTypes
 
 Prayer.propTypes = {
   prayerName: string.isRequired,
-  currentPrayer: bool
+  currentPrayer: string
 }
 
 // Need to use Dimensions here, to get a responsive layout
