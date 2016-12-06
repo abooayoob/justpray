@@ -43,6 +43,9 @@ export default class JustPrayClient extends Component {
 
     if (freshPrayer !== this.state.currentPrayer) {
       this.setState({currentPrayer: freshPrayer})
+      if (this.state.currentPrayer !== 'none') {
+        this.playAdhaan()
+      }
     }
 
     this.setState({currentTime: now})
@@ -98,7 +101,7 @@ export default class JustPrayClient extends Component {
 
   render () {
     return (
-      <TouchableWithoutFeedback onPress={this.playAdhaan}>
+      <TouchableWithoutFeedback>
         <View style={styles.container}>
           <Clock time={this.state.currentTime} />
           <Prayer prayerName='fajr' currentPrayer={this.state.currentPrayer} />
